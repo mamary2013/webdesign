@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/myStyle.css">
+        <style>
+            table{
+                width: 100%;
+                text-align: center;
+            }
+            th{
+                background-color: paleturquoise;
+                color: black;
+                text-align: center;
+            }
+            td{
+                background-color: palegreen;
+                color: black;
+            }
+        </style>
+    </head>
+<body>
+
+        <ul id="menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="products.html"><li>Products</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+<div class="container">
+<!--     <h1>largest header and <h6> is the smallest header   -->     
+        <h1 style="color:red; text-align: center;"> Our Latest Products</h1>
+        <p>The list and prices of our latest products</p>
+<table border="2">
+    <thead>
+    <tr>
+        <th rowspan="2">ID</th>
+        <th rowspan="2">P_Name</th>
+        <th rowspan="2">Quantity</th>
+        <th colspan="2">Price</th>
+        <th rowspan="2">Image</th>
+    </tr>
+    <tr>
+        <th>Purchase</th>
+        <th>Sale</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+        <td>101</td>
+        <td>Apple</td>
+        <td>5000</td>
+        <td>1.33</td>
+        <td>1.99</td>
+        <td><img src="images/apple.jpg"></td>
+        
+    
+    </tr>
+
+    <tr>
+        <td>104</td>
+        <td>Bananas</td>
+        <td>7000</td>
+        <td>0.7</td>
+        <td>0.99</td>
+        <td><img src="images/banana.jpg"></td>
+    </tr>
+    
+    <tr>
+        <td>112</td>
+        <td>Mangos</td>
+        <td>9000</td>
+        <td>1.55</td>
+        <td>2.01</td>
+        <td><img src="images/mango.jpg"></td>
+    </tr>
+
+    
+    </tbody>
+
+</table>
+</div>
+<br>
+<br>
+<footer>
+    <p style="text-align:center;">&copy;Premium WebDedign 2021</p>
+</footer>
+</div>
+    </body>
+</html>
